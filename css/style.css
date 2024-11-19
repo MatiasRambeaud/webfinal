@@ -6,14 +6,10 @@ body {
 }
 
 .left {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
     width: 25vw;
     height: 95vh;
     margin: 0;
-    padding: 0;
+    padding-left: 50px;
     top: 2vh;
     left: 0;
     position: absolute;
@@ -21,9 +17,6 @@ body {
 }
 
 .right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 72vw;
     height: 95vh;
     margin: 0;
@@ -31,13 +24,9 @@ body {
     top: 2vh;
     left: 26vw;
     position: absolute;
-    border: solid rgb(54, 15, 6);
 }
 
 .thumbnail {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: rgb(9, 20, 20);
     border-radius: 10px;
     box-shadow: 5px 5px 5px black;
@@ -55,6 +44,7 @@ body {
 }
 
 .info {
+    margin-top: 15px;
     background-color: rgb(9, 20, 20);
     border-radius: 10px;
     box-shadow: 5px 5px 5px black;
@@ -69,9 +59,10 @@ h3 {
 }
 
 .about {
+    margin-top: 100px;
+    margin-left: 100px;
     width: 80%;
     height: 80%;
-    background-color: rgb(9, 20, 20);
     border-radius: 10px;
     box-shadow: 5px 5px 5px black;
     text-align: center;
