@@ -1,0 +1,83 @@
+body {
+    color: blanchedalmond;
+    background-color: rgb(13, 28, 28);
+    font-size: large;
+    margin: 0;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 25vw;
+    height: 95vh;
+    margin: 0;
+    padding: 0;
+    top: 2vh;
+    left: 0;
+    position: absolute;
+    border: solid rgb(54, 15, 6);
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 72vw;
+    height: 95vh;
+    margin: 0;
+    padding: 0;
+    top: 2vh;
+    left: 26vw;
+    position: absolute;
+    border: solid rgb(54, 15, 6);
+}
+
+.thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(9, 20, 20);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    width: 50%;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.thumbnail img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid rgb(54, 15, 6);
+}
+
+.info {
+    background-color: rgb(9, 20, 20);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    width: 50%;
+    height: 60%;
+    padding: 10px;
+    text-align: center;
+}
+
+h3 {
+    color: burlywood;
+}
+
+.about {
+    width: 80%;
+    height: 80%;
+    background-color: rgb(9, 20, 20);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    text-align: center;
+}
+
+.about img {
+    border: solid;
+    border-radius: 2%;
+}
